@@ -1,3 +1,8 @@
+/* eslint-disable no-use-before-define */
+/* eslint-disable no-restricted-globals */
+/* eslint-disable no-shadow */
+/* eslint-disable no-fallthrough */
+
 const debug = require('debug')('node-angular');
 const http = require('http');
 const app = require('./backend/app');
